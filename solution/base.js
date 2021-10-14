@@ -1,8 +1,8 @@
-const types = ["text", "image", "video", "imageFromVideo", "quiz", "gate", "group", "tunnel"];
+const types = ["text","gate"];
 
 
 
-const options = [
+const options = [ // every node has the ability to use this options
   { divert: "nodeId" }, // requiare
   { flagName: "string" }, // optional needed to track the state of progresstion : presistance
   { extra: "a,b,c,d" }, // optional needed to identifie or add extra parametre to the object : only when used
@@ -12,6 +12,7 @@ const options = [
 ];
 
 const nodeText = {
+  // the main purpuse of the text is to handle text only 
   node_type: "text", // requiare
   content: [
     // requiare
@@ -20,59 +21,9 @@ const nodeText = {
   ],
 };
 
-const nodeTunnel = {
-  node_type: "tunnel", // requiare
-  content: [
-    // requiare
-    "text", // requiare TODO : maybe we can use this 
-    ...options, // blockNext default : false  
-  ],
-};
-
-const nodeVideo = {
-  node_type: "video", // requiare
-  content: [
-    // requiare
-    "url", // requiare
-    ...options,
-    {start : "numberInSeconde"}, //default : 0, optional from where start to play 
-    {end : "numberInSeconde"}, // default : the end of the video, optional from where it end
-    
-  ],
-};
-
-const nodeImageFromVideo = {
-  node_type: "imageFromVideo", // requiare
-  content: [
-    // requiare
-    "urlVideo", // requiare
-    ...options,
-    { imageAt: "numberInSeconde" },
-  ],
-};
-
-const nodeImage = {
-  node_type: "image", // requiare
-  content: [
-    // requiare
-    "url", // requiare
-    { alt: "image alt" }, // optional
-    ...options,
-  ],
-};
-
-const nodeQuiz = {
-  // TODO : need more work on it
-  // the idea of this node is to add a question and answers 
-  node_type: "quiz", // requiare
-  content: [
-    "idQuiz", // requiare
-  ],
-};
-
-
-
+  
 const nodeGate = {
+  // the main purpuse of the gate is to handle mutiple direction only 
   node_type: "gate",
   content: [
     "text",
@@ -99,3 +50,4 @@ const nodeGate = {
     },
   ],
 };
+

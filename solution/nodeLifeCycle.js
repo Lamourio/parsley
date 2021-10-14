@@ -98,7 +98,7 @@ class GateNode extends Node {
     this.options = [];
   }
   gateInit = () => {};
-  getConfition = () => {};
+  getCondition = () => {};
   getVisited = () => {};
 }
 
