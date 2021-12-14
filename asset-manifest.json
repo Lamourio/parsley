@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/parsley/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/parsley/static/js/main.e86e07ab.chunk.js",
+    "main.js.map": "/parsley/static/js/main.e86e07ab.chunk.js.map",
+    "runtime-main.js": "/parsley/static/js/runtime-main.d7b68af2.js",
+    "runtime-main.js.map": "/parsley/static/js/runtime-main.d7b68af2.js.map",
+    "static/js/2.8427f267.chunk.js": "/parsley/static/js/2.8427f267.chunk.js",
+    "static/js/2.8427f267.chunk.js.map": "/parsley/static/js/2.8427f267.chunk.js.map",
+    "static/js/3.707b6e65.chunk.js": "/parsley/static/js/3.707b6e65.chunk.js",
+    "static/js/3.707b6e65.chunk.js.map": "/parsley/static/js/3.707b6e65.chunk.js.map",
+    "index.html": "/parsley/index.html",
+    "service-worker.js": "/parsley/service-worker.js",
+    "service-worker.js.map": "/parsley/service-worker.js.map",
+    "static/css/main.8c8b27cf.chunk.css.map": "/parsley/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.8427f267.chunk.js.LICENSE.txt": "/parsley/static/js/2.8427f267.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/parsley/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7b68af2.js",
+    "static/js/2.8427f267.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.e86e07ab.chunk.js"
+  ]
+}
