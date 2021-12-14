@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/generator/node_modules
+/generator/.pnp
+/generator/.pnp.js
+
+# testing
+/generator/coverage
+
+# production
+/generator/build
+
+# misc
+/generator/.DS_Store
+/generator/.env.local
+/generator/.env.development.local
+/generator/.env.test.local
+/generator/.env.production.local
+
+/generator/npm-debug.log*
+/generator/yarn-debug.log*
+/generator/yarn-error.log*
